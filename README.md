@@ -1,0 +1,2 @@
+# StrongPasswordGenerator
+Generator strong password
