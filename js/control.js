@@ -14,22 +14,22 @@ $('document').ready( function() {
 		var storedLength = localStorage['optionLength'];
 		var optLengthDisabled = $('#optionLengthWrapper').hasClass('disabled')
 		
-		if (isNaN(oldLength))
+		if(isNaN(oldLength))
 			oldLength = lengthDefault;
 		
-		if (val != undefined)
+		if(val != undefined)
 			newLength = oldLength + val;
 		
-		if (newLength < lengthMin)
+		if(newLength < lengthMin)
 			newLength = lengthMin;
 			
-		if (newLength > lengthMax)
+		if(newLength > lengthMax)
 			newLength = lengthMax;
 		
-		if (newLength != oldLength && optLengthDisabled == false)
+		if(newLength != oldLength && optLengthDisabled == false)
 			$('#optionLength').val(newLength);
 		
-		if (newLength != storedLength)
+		if(newLength != storedLength)
 			storeSetting('optionLength', newLength);
 			
 	}
