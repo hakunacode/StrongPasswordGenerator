@@ -3,7 +3,6 @@
       "default_icon": "img/icons/toolbar.png",
       "default_popup": "pgs/popup.html"
    },
-   
    "default_locale": "en",
    "description": "__MSG_appDescription__",
    "icons": {
@@ -14,7 +13,6 @@
       "64": "img/icons/icon64.png",
       "96": "img/icons/icon96.png"
    },
-
    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCruAD1Lcpbz9RS+JMSz8B+91OZjoPv8ntwJHsnWezXYnz5GlEThaq2OdA94CsVnCK+e23deQxLPdEwCQdTiZYmK/rdIdt/KFP9hLYLyj44FcrzVwKHSrpnDUVoxHf5hwCym0G6VqO9viPneVcS1fQ4RtYBtTGuwDKL2l8U4V62kwIDAQAB",
    "manifest_version": 2,
    "name": "Strong Password Generator",
