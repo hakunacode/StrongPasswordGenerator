@@ -41,16 +41,16 @@ $('document').ready( function() {
 		var keys = '';
 		var result = '';
 
-		if($('#optionLengthRandom').is(':checked') == true) {
+		if ($('#optionLengthRandom').is(':checked') == true) {
 			length = lengthMin + Math.round(Math.random() * (lengthMax - lengthMin));
 		}
 		else {
 			length = Number($('#optionLength').val());
 		}
 
-		if($('#optionLowercase').is(':checked') == true)
+		if ($('#optionLowercase').is(':checked') == true)
 			keys += 'abcdefghijklmnopqrstuvwxyz';
-		if($('#optionUppercase').is(':checked') == true)
+		if ($('#optionUppercase').is(':checked') == true)
 			keys += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 		if($('#optionNumber').is(':checked') == true)
 			keys += '0123456789';
